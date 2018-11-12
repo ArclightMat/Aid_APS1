@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Aid | Seja um voluntário </title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="conteudo">
+			<div id="logo">
+				<img src="logo.png">
+			</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="volunt.html">Voluntários</li>
+				<li><a href="registro.html">Cadastre</a></li>
+				<li id="comi"><a href="login.html">Entre</a></li>
+				<li><a href="who.html">Quem somos?</a></li>
+			</ul>			
+		</nav>		
+		</div>
+	</header>
+	<section class="bg_myrna">
+
+	<div id="contato">
+		<article id="who_alt">
+			<h1>Torne-se um voluntário no Aid</h1>
+		</article>
+		<form id="fContato" name="fContato" method="post" action="#">
+			<label>Nome</label><br>
+			<input type="text" name="fNome" maxlength="40" title="Digite seu nome" required autofocus><br><br>
+			
+			<label>Telefone</label><br>
+			<input type="tel" maxlength="15" name="fFone" placeholder="(xx)xxxx-xxxx" title="Digite seu telefone" required><br><br>
+			
+			<label>Email</label><br>
+			<input type="email" name="fMail"  title="Digite seu email" required><br><br>
+
+			<label>RG</label><br>
+			<input type="text" name="fDestino" maxlength="40" title="Digite seu local de destino" required><br><br>
+
+			<label>Data de nascimento</label><br>
+			<input type="date" maxlength="10" name="fData" required><br><br>
+
+			<button class="material_button" type="submit" value="Enviar" id="btn"> Enviar </button>
+			<button class="material_button_alt" type="reset" value="Limpar" id="btn"> Limpar </button>
+		</form>
+	</div>
+		<div id="info">
+			<h3><span id="details">*</span>Caso você seja menor de idade e queira ser um voluntário é necessário está acompanhado de um responsável durante os eventos.<span id="details">*</span></h3>
+		</div>
+	</section>
+	<footer id="volunt">
+		Created by: Fantastic Four - CC1A40
+		<div id="team">
+		<p>Kelvin Wallace | Daniella Gomes | Matheus Ferreira | Matheus Santos</p>
+	</footer> 
+</body>
+</html>

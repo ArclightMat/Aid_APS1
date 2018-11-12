@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aid | Registre-se </title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="conteudo">
+			<div id="logo">
+				<img src="logo.png">
+			</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="volunt.html">Voluntários</li>
+				<li><a href="registro.html">Cadastre</a></li>
+				<li id="comi"><a href="login.html">Entre</a></li>
+				<li><a href="who.html">Quem somos?</a></li>
+			</ul>			
+		</nav>		
+		</div>
+	</header>
+	
+	<main>
+	<section class="bg_myrna">
+		<div id="markthree">
+				<div class="glue">
+				<h1> Informações importantes </h1>
+				<p> Preencha o formulário de inscrição cuidadosamente e com informação verdadeira. Falha em seguir estas instruções impedirá-lo de participar do movimento e de se beneficiar do mesmo. Entraremos em contato para aprovar ou reprovar seu registro. Caso seja reprovado, informaremos o motivo e você poderá tentar novamente após 15 dias.
+				<br> Ao se cadastrar, você permite a utilização de seus dados para contato e está ciente de que serão armazenados para futuras referências por um período de até 180 dias ou até o fim de suas atividades sobre a nome "Aid". Outrossim está ciente da disponibilidade do mesmo com as necessidades da "Aid".
+				Não nos responsabilizamos por injurias e perdas de objetos durante suas atividades sobre o nome "Aid". </p>
+				</div>
+		</div>
+		<br>
+		<form action="#" method="post"> <!-- Falta um servidor para processar os dados, porém o código é funcional -->
+		<fieldset class=field1> 
+			<h3> Formulário de Registro </h3> <br>
+			<div>
+				<label for="primeiro-nome">Nome:</label> <br>
+				<input type="text" id="primeiro-nome" name="nome_1" required>
+			</div>
+			<div>
+				<label for="segundo-nome">Sobrenome:</label> <br>
+				<input type="text" id="segundo-nome" name="nome_2" required>
+			</div>
+			<div>
+				<label>Data de nascimento</label><br>
+				<input type="date" maxlength="10" name="data_nasc" required>
+			</div>
+			<div>
+				<label for="sexo">Sexo (Biológico):</label> <br>
+				<input type="radio" id="sexo" name="sexo" value="homem" required> Masculino <br>
+				<input type="radio" id="sexo" name="sexo" value="mulher" required> Feminino 
+			</div>
+			<div>
+				<label for="email">E-mail:</label> <br>
+				<input type="email" id="email" name="email_cand" required>
+			</div>
+			<div>
+				<label for="qual">Informe sua região e qualificações:</label> <br>
+				<textarea id="qual" name="qual_cand" required></textarea >
+			</div>
+			<div>
+				<button class="material_button" type="submit">Enviar</button>
+			</div>
+		</fieldset>
+		</form>
+	</section>
+	</main>
+	<footer class="footer_clear">
+		Created by: Fantastic Four - CC1A40
+		<div id="team">
+		<p>Kelvin Wallace | Daniella Gomes | Matheus Ferreira | Matheus Santos</p>
+	</footer> 
+</body>
+</html>

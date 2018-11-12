@@ -1,0 +1,485 @@
+/* Adição de fontes */
+@font-face {
+	font-family: NotoSansUI;
+	src: url("../fonts/NotoSansUI-Regular.ttf");
+}
+@font-face {
+	font-family: NotoSans;
+	src: url("../fonts/NotoSans-Regular.ttf");
+}
+/* Fim de adição de fontes */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.conteudo{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#point{
+	color: #225378;
+}
+header{
+	border-bottom: #088A08 2px solid;
+	padding-top:5px;
+    min-height:60px;
+}
+header h1{
+	font-size: 42px;
+}
+header a{
+	text-decoration: none;
+	color: #666666;
+	text-transform: uppercase;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline;
+	float: left;
+	padding: 0 20px 0 20px;
+}
+nav{
+	float: right;
+	margin-top: 20px;
+}
+header #logo{
+	float: left;
+}
+header #logo h1{
+	margin: 0;
+}
+/*Menu */
+/*Divisão entre slide e pracinha */
+#selecao{
+	background-color: #3a3a3a;
+	overflow: hidden;
+}
+#selecao h1{
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+/*Hiperlinks */
+header a:hover{
+  color:#088A08;
+  font-weight:bold;
+}	
+li #list{
+	list-style-type: square;
+}
+/*Divisão acaba aqui */
+/* Pracinha*/
+.markone{
+	background-color: #3876a4;
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	border-top: ;
+	height: 370px;
+	color: #ffffff;
+}
+#paragrafo {
+	width: 60%;
+	height: ;
+	margin-left: 30px;
+	text-align: justify;
+}
+#paragrafo p{
+	font-size: 15px;
+}
+.marktwo{
+	background-color: ;
+	width: 70%;
+	overflow: hidden;
+	float: left;
+	clear: none;
+	
+	height: 370px;
+	color: #000000;
+}
+#markh{
+	float: left;
+	padding-left: 10px;
+
+}
+#box{
+	float: left;
+	clear: left;
+	overflow: hidden;
+}
+#box img{
+
+}
+#box2 {
+	float: right;
+	clear: right;
+	
+	margin-top: -150px;
+	margin-right: 70px;
+}
+#box2 li:hover{
+	background-color: #3876a4;
+}
+#box2 li{
+	text-align: center;
+	padding-top: 10px;
+	background-color: #788f26;
+	width: 90px;
+	height: 30px;
+	color: #ffffff;
+
+}
+#box2 a{
+	text-decoration: none;
+	color: #ffffff;
+}
+/* Pracinha acaba aqui */
+
+#start{
+	clear: left;
+	text-align: center;
+	font-size: 20px;
+}
+#start h1::after{
+	content:'';
+	width: 200px;
+	height: 3px;
+	display: block;
+	background:#788f26;
+	margin:auto;
+}
+#feedback h3::before{
+	content:'';
+	width: 70px;
+	height:3px;
+	background:#788f26;
+	display: block;
+
+}
+#feedback p{
+	font-size: 20px;
+}
+#feedback{
+	margin-bottom: 35px;
+}
+
+/*Futuro Slide */
+#slide{
+  min-height:400px;
+  background:url('../prac_img3.jpg') -800px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#slide h1{
+  margin-top:140px;
+  font-size:55px;
+  margin-bottom:10px;
+  color: #D8D8D8;
+  text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px
+}
+
+#slide p{
+  font-size:20px;
+  color: #000000;
+}
+/* Footer */
+footer{
+	background-color: #4c5b16;
+	padding: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+/* Formulário */
+.field1 label {
+	display: inline-block;
+}
+
+.field1 input{
+	font: 1em NotoSansUI;
+	border: 1px solid #75cd9a;
+	border-radius: 5px;
+}
+
+.field1 input[type=text], .field1 input[type=email], .field1 textarea{
+	font: 1em NotoSansUI;
+	border: 1px solid #75cd9a;
+	width: 100%;
+	border-radius: 5px;
+
+}
+.field1 input:focus, .field1 textarea:focus{
+	border-color: #14281c;
+	border-radius: 5px;
+	border: 1px solid
+}
+.field1 textarea{
+	height: 20em;
+	width: 100%;
+}
+
+.field1{
+	border-style: none;
+	border-color: rgba(102, 200, 143, 0.7);
+	border-width: 5px;
+	border-radius: 5px;
+	width: 50%;
+	/*background-color: rgba(126, 192, 238, 0.5); */
+	color: #000000;
+	/*float: left; */
+	margin: auto;
+	font-family: NotoSansUI;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.footer_clear{
+	clear: both;
+}
+
+#markthree {
+	font-size: 15px;
+	/*font-family: NotoSans;*/
+	padding: 10px;
+}
+
+#markthree h1{
+	text-align: center;
+	font-weight: bold;
+	font-family: NotoSansUI;
+	width: 25%;
+	margin: auto;
+}
+
+#markthree h1::after{
+	content: '';
+	width: 70%;
+	height: 3px;
+	display: block;
+	background:#088A08;
+	margin:auto;
+}
+
+.field1 h3{
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	font-family: NotoSansUI;
+	width: 25%;
+	margin: auto;
+}
+
+.field1 h3::after{
+	content: '';
+	width: 70%;
+	height: 3px;
+	display: block;
+	background:#088A08;
+	margin:auto;
+}
+
+/* Formulário acaba aqui */
+
+/* Login */
+.field2 label {
+	display: inline-block;
+}
+
+.field2 input{
+	font: 1em NotoSansUI;
+	border: 1px solid #75cd9a;
+	border-radius: 5px;
+}
+
+.field2 input:focus{
+	border-color: #14281c;
+	border-radius: 5px;
+}
+
+.field2 a {
+	color: #008000;
+}
+.field2 a:hover{
+	color: #004000;
+	font-weight: bold;
+}
+
+.field2{
+	border-style: none;
+	/* border-color: #7EC0EE; */
+	border-width: 4px;
+	width: 25%;
+	margin: auto;
+	text-align: center;
+	padding: 10%;
+	border-radius: 99px;
+	background: rgba(255, 255, 255, 0.7);
+	font-family: NotoSansUI;
+}
+/* Login acaba aqui */
+
+/*WHO PAGE*/
+#who h1{
+	text-align: center;
+	font-size: 25px;
+} 
+#who h1::after{
+	content: '';
+	width: 200px;
+	height: 3px;
+	display: block;
+	background:#088A08;
+	margin:auto;
+}
+#who_alt h1{
+	text-align: center;
+	font-size: 25px;
+} 
+#who_alt h1::after{
+	content: '';
+	width: 75%;
+	height: 3px;
+	display: block;
+	background:#088A08;
+	margin:auto;
+}
+#who{
+	width: 80%;
+	text-align: justify;
+	font-size: 22px;
+	padding-top: -10%;
+	margin: auto;	
+}
+#text_who{
+	width: 80%;
+	text-align: justify;
+	font-size: 22px;
+	margin: auto;
+}
+/*Volunt page */
+#info{
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
+#details{
+	color: #DF0101;
+}
+#contato{
+	border-style: none;
+	border-width: 4px;
+	width: 25%;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	padding: 5%;
+	border-radius: 70px;
+	background: rgba(255, 255, 255, 0.7);
+}
+#contato label {
+	display: inline-block;
+}
+
+#contato input{
+	font: 1em NotoSansUI;
+	border: 1px solid #75cd9a;
+	width: 100%;
+	border-radius: 5px;
+}
+#contato input[type=date] {
+	width: 37%;	
+}
+#contato input[type=tel]{
+	width: 30%;
+}
+#contato input:focus, .field1 textarea:focus{
+	border-color: #14281c;
+	border-radius: 5px;
+	border: 1px solid
+}
+#contato textarea{
+	height: 20em;
+	width: 100%;
+}
+/*Volunt page acaba aqui*/
+@media(max-width: 768px){
+   header #logo{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  header{
+    padding-bottom:20px;
+  }
+  .markone{
+  	width: 100%;
+  	padding-bottom: 70px;
+  }
+  .marktwo{
+  	float: left;
+  	clear: left;
+  	width: 100%;
+  	padding-bottom: 60px;
+  }
+  #box img{
+  	width: 900px;
+  }
+  #box2{
+  	margin-top: -200px;
+	margin-right: 110px;
+  }
+.field1{
+	width: 100%;
+}
+
+}
+
+/* Coisas relacionadas ao efeitos */
+
+.bg_myrna{
+	/* Esse nome vem do local da foto */
+	background-image: url("../myrna.jpg");
+	overflow:hidden;
+}
+.glue {
+	/* A razão do nome é que ele cola tudo com o bg_myrna :p */
+	background: rgba(255, 255, 255, 0.7);
+	border-style: none;
+	border-radius: 25px;
+}
+
+.material_button {
+	/* Botão segue as guidelines do Material Design pela Google - Verde */
+	font-family: NotoSansUI;
+	background-color: #5DB761;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.material_button_alt {
+	/* Botão segue as guidelines do Material Design pela Google - Vermelha*/
+	font-family: NotoSansUI;
+	background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
